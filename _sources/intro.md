@@ -1,0 +1,1 @@
+NIM: 230411100061 Halo! saya adalah Rafael Hafid Taftazani, saya mahasiswa Teknik Informatika Universitas Trunojoyo Madura Disini adalah beberapa tugas dari Matkul KAL.
