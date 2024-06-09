@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Aljabar matrik &#8212; My sample book</title>
+    <title>&lt;no title&gt; &#8212; My sample book</title>
   
   
   
@@ -57,11 +57,10 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'tugas2';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'aplikasi KAL';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="sifat sifat matrik invers" href="KALtugas3.html" />
-    <link rel="prev" title="Menggambar persamaan bidang dalam ruang 3D" href="sistemlinier.html" />
+    <link rel="prev" title="TRANSFORMASI MATRIKS" href="transformasi.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -177,9 +176,9 @@
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="sistemlinier.html">Menggambar persamaan bidang dalam ruang 3D</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Aljabar matrik</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tugas2.html">Aljabar matrik</a></li>
 <li class="toctree-l1"><a class="reference internal" href="KALtugas3.html">sifat sifat matrik invers</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="determinan.html">determinan</a></li>
@@ -255,7 +254,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ftugas2.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Faplikasi KAL.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -285,7 +284,7 @@
       
       
       
-      <li><a href="_sources/tugas2.ipynb" target="_blank"
+      <li><a href="_sources/aplikasi KAL.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -369,7 +368,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Aljabar matrik</h1>
+    <h1><no title></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -378,14 +377,9 @@ document.write(`
                 <h2> Contents </h2>
             </div>
             <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-matriks">operasi matriks</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#penjumlahan">penjumlahan</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pengurangan">pengurangan</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian">perkalian</a></li>
+                <ul class="simple visible nav section-nav flex-column">
 </ul>
-</li>
-</ul>
+
             </nav>
         </div>
     </div>
@@ -396,163 +390,142 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="aljabar-matrik">
-<h1>Aljabar matrik<a class="headerlink" href="#aljabar-matrik" title="Link to this heading">#</a></h1>
-<ul class="simple">
-<li><p>berikan penjelasan tentang apa itu matrik</p></li>
-<li><p>operasi matrik(pertambahan, pengurangan dan pemrkalian)</p></li>
-<li><p>buat program untuk mengalikan matrik A dan B</p></li>
-<li><p>pertambahan pengurangan perkalian dan transpose matrik
-syaa disuruh bikin matrik A dan B ukuran 3X3 dan matrik c dengan unkuran 3x2
-m x n adalah matrik A
-n x k adalah matrik B</p></li>
-</ul>
+  <p>#Aplikasi KAL</p>
+<p>##Page rank
+###algoritma</p>
+<p>PageRank adalah algoritma yang dikembangkan oleh Larry Page dan Sergey Brin, pendiri Google, untuk menentukan peringkat halaman web dalam hasil mesin pencari. Algoritma ini digunakan untuk mengukur pentingnya halaman web berdasarkan jumlah dan kualitas tautan yang mengarah ke halaman tersebut. PageRank didasarkan pada gagasan bahwa halaman web yang lebih penting cenderung menerima lebih banyak tautan dari halaman web lainnya.</p>
+<p>Cara kerjanya secara singkat adalah sebagai berikut:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="nn">sy</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]])</span>
+<span class="n">v</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">0.25</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.25</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.25</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.25</span><span class="p">]])</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">2</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-<span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">5</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
-<span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">2</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">C</span><span class="p">)</span>
-<span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">8</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">D</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">av1</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">v</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av1</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 
-<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
-<span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+<span class="n">av2</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">av1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av2</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="nd">@z</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="nd">@C</span><span class="p">)</span>
+<span class="n">av3</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">av2</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av3</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="n">av4</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">av3</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av4</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="n">av5</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">av4</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av5</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="n">av6</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">av5</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av6</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="n">av7</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">av6</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av7</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="n">av8</span> <span class="o">=</span> <span class="n">a</span> <span class="o">@</span> <span class="n">av7</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">av8</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[2 5 3]
- [2 6 3]
- [7 9 2]]
-[[2 1 4]
- [7 3 6]
- [2 6 5]]
-[[2 4]
- [3 6]
- [7 2]]
-[[8 4 4]
- [2 5 6]
- [7 2 5]]
-[[1 2 3]
- [4 5 6]]
-[[1 2]
- [3 4]
- [5 6]]
-[[22 28]
- [49 64]]
-[[40 44]
- [43 50]
- [55 86]]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0.375     ]
+ [0.08333333]
+ [0.33333333]
+ [0.20833333]] 
+
+[[0.4375    ]
+ [0.125     ]
+ [0.27083333]
+ [0.16666667]] 
+
+[[0.35416667]
+ [0.14583333]
+ [0.29166667]
+ [0.20833333]] 
+
+[[0.39583333]
+ [0.11805556]
+ [0.29513889]
+ [0.19097222]] 
+
+[[0.390625  ]
+ [0.13194444]
+ [0.28645833]
+ [0.19097222]] 
+
+[[0.38194444]
+ [0.13020833]
+ [0.29166667]
+ [0.19618056]] 
+
+[[0.38975694]
+ [0.12731481]
+ [0.29050926]
+ [0.19241898]] 
+
+[[0.38671875]
+ [0.12991898]
+ [0.28978588]
+ [0.19357639]] 
 </pre></div>
 </div>
 </div>
 </div>
-<p>Matriks adalah sekumpulan bilangan yang disusun berdasarkan baris dan kolom, serta ditempatkan di dalam tanda kurung.</p>
-<section id="operasi-matriks">
-<h2>operasi matriks<a class="headerlink" href="#operasi-matriks" title="Link to this heading">#</a></h2>
-<section id="penjumlahan">
-<h3>penjumlahan<a class="headerlink" href="#penjumlahan" title="Link to this heading">#</a></h3>
-<p>penjuamlahan matriks dapat dilakukan jika panjang baris dan kolomm kedua matriks sama</p>
-<p>cara menjumlahkannya cukup menambahkan matriks pertama dan kedua pada tiap baris dan kolom yang sama</p>
-<p>penjumlahan matrik memiliki sifat sifat:</p>
-<p>Sifat komutatif</p>
-<p>Pada sifat ini berlaku A + B = B + A.</p>
-<p>Sifat asosiatif
-Pada sifat ini berlaku (A + B) + C = A +(B + C)</p>
-<p>Matriks nol</p>
-<p>Pada sifat ini berlaku A + 0 = A.</p>
-<p>Jika dijumlahkan dengan lawannya akan menghasilkan matriks
-nol, yaitu A + (-A) = 0.</p>
-</section>
-<section id="pengurangan">
-<h3>pengurangan<a class="headerlink" href="#pengurangan" title="Link to this heading">#</a></h3>
-<p>sama seperti penjumlahan hanya saja idkurangi</p>
-</section>
-<section id="perkalian">
-<h3>perkalian<a class="headerlink" href="#perkalian" title="Link to this heading">#</a></h3>
-<p>perkalian matriks hanya dapat dilakukan jika kolom matriks A sama dengan baris matrik B</p>
-<p>matriks dari hasil perkalian matriks akan memiliki jumlah baris
-yang sama dengan matrik pertama dan jumlah kolom yang sama dengan matrik kedua</p>
-<p>perkalian matrik A x B berbeda dengan perkalian matrik B x A</p>
-<p>perkalian matrik memiliki sifat sifat:</p>
-<p>Sifat asosiatif</p>
-<p>Pada sifat ini, berlaku (A × B) × C= A × (B × C)</p>
-<p>Sifat distributif</p>
-<p>Pada sifat ini, berlaku A × (B + C) = (A × B) + (A × C)
-###transpose matrik
-transpose matrik adalah matrik yang posisi baris dan kolomnya bertukar posisi</p>
-<p>transpose matriks biasanya ditandai dengan tanda pangkat t pada matriks tersebut</p>
-<p>transpose matriks memiliki sifat sifat:</p>
-<ol class="arabic simple">
-<li><p>(PT)T = P</p></li>
-<li><p>(P + Q)T = PT + QT</p></li>
-<li><p>(P – Q)T = PT – QT</p></li>
-<li><p>(KP)T = <a class="reference external" href="http://k.PT">k.PT</a>, di mana k = suatu konstanta</p></li>
-<li><p>(PQ)T = PTQT</p></li>
-</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
-          <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
-          <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">0</span><span class="p">]]</span>
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">B</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
-        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">B</span><span class="p">)):</span>
-            <span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">+=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">*</span> <span class="n">B</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
-
-
-
-<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-  <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
-<span class="n">k</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">Y</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
-  <span class="n">Z</span> <span class="o">=</span> <span class="p">[]</span>
-  <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">B</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
-    <span class="n">Z</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">B</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">+</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="n">B</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">+</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span><span class="o">*</span><span class="n">B</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="n">j</span><span class="p">])</span>
-  <span class="n">Y</span><span class="o">+=</span><span class="p">[</span><span class="n">Z</span><span class="p">]</span>
-
-<span class="n">Y</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="nd">@B</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">],[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">],[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]])</span>
+<span class="n">V0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">0.25</span><span class="p">],[</span><span class="mf">0.25</span><span class="p">],[</span><span class="mf">0.25</span><span class="p">],[</span><span class="mf">0.25</span><span class="p">]])</span>
+<span class="n">V1</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V0</span>
+<span class="n">V2</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V1</span>
+<span class="n">V3</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V2</span>
+<span class="n">V4</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V3</span>
+<span class="n">V5</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V4</span>
+<span class="n">V6</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V5</span>
+<span class="n">V7</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V6</span>
+<span class="n">V8</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V7</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">V8</span><span class="p">)</span>
+<span class="n">V0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">0.34</span><span class="p">],[</span><span class="mf">0.16</span><span class="p">],[</span><span class="mf">0.18</span><span class="p">],[</span><span class="mf">0.32</span><span class="p">]])</span>
+<span class="n">iterasi</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+  <span class="n">error</span> <span class="o">=</span> <span class="mf">0.01</span>
+  <span class="n">Vn</span> <span class="o">=</span> <span class="n">A</span><span class="nd">@V0</span>
+  <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">V0</span><span class="p">)):</span>
+    <span class="n">total</span> <span class="o">+=</span> <span class="n">Vn</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">V0</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+  <span class="n">V0</span> <span class="o">=</span> <span class="n">Vn</span>
+  <span class="k">if</span> <span class="n">total</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">break</span>
+  <span class="n">iterasi</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">iterasi</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Vn</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[45, 35, 53]
-[52, 38, 59]
-[81, 46, 92]
-[[45 35 53]
- [52 38 59]
- [81 46 92]]
-[[45 35 53]
- [52 38 59]
- [81 46 92]]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0.38671875]
+ [0.12991898]
+ [0.28978588]
+ [0.19357639]]
+3
+[[0.35166667]
+ [0.15      ]
+ [0.29166667]
+ [0.20666667]]
+0.0
+1.4142135623730951
 </pre></div>
 </div>
 </div>
 </div>
-</section>
-</section>
-</section>
 
     <script type="text/x-thebe-config">
     {
@@ -585,22 +558,13 @@ transpose matrik adalah matrik yang posisi baris dan kolomnya bertukar posisi</p
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="sistemlinier.html"
+       href="transformasi.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Menggambar persamaan bidang dalam ruang 3D</p>
+        <p class="prev-next-title">TRANSFORMASI MATRIKS</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="KALtugas3.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">sifat sifat matrik invers</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -617,14 +581,9 @@ transpose matrik adalah matrik yang posisi baris dan kolomnya bertukar posisi</p
     <i class="fa-solid fa-list"></i> Contents
   </div>
   <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-matriks">operasi matriks</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#penjumlahan">penjumlahan</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pengurangan">pengurangan</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian">perkalian</a></li>
+    <ul class="simple visible nav section-nav flex-column">
 </ul>
-</li>
-</ul>
+
   </nav></div>
 
 </div></div>
